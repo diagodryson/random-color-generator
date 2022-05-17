@@ -20,7 +20,7 @@ button{
     font-size: .8rem;
     font-weight: 600;
     font-family: sans-serif;
-    color: rgba(253, 209, 63, 0.8);
+    color: rgba(255, 255, 255, 0.8);
     padding: 1rem;
     width: 20rem;
     border-radius: .2rem;
@@ -28,4 +28,8 @@ button{
     background: #121212;
     user-select: none;
     transition: transform .2s;
+}
+button:hover {
+    cursor: pointer;
+    transform: translateY(-.3rem);
 }
