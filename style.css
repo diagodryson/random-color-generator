@@ -1,18 +1,29 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
-}
-:root{
-  --current-value: rgb(38,142, 222)
+:root {
+    --current-value: rgb(255,255,255);
 }
 body{
-display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background: var(--current-value);
     height: 100vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+span{
+    font-weight: 400;
+    font-size: 2rem;
+    color: #121212;
+}
+button{
+    font-size: 8rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, .8);
+    padding: 1rem;
+    width: 20rem;
+    border-radius: .2rem;
+    margin-top: 3rem;
+    background: #121212;
+    user-select: none;
 }
