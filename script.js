@@ -10,3 +10,5 @@ const randomRGB = () => [
     randomNumber(0, 253),
     randomNumber(0, 253)
 ];
+
+const currentValueSpan = document.getElementById("value");
