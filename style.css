@@ -1,13 +1,15 @@
 :root {
     --current-value: rgb(255,255,255);
 }
+
 body{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: var(--current-value);
     height: 100vh;
+
+    background: var(--current-value);
 }
 span{
     font-weight: 400;
@@ -15,7 +17,7 @@ span{
     color: #121212;
 }
 button{
-    font-size: 8rem;
+    font-size: .8rem;
     font-weight: 600;
     font-family: sans-serif;
     color: rgba(255, 255, 255, .8);
