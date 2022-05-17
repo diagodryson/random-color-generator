@@ -27,4 +27,5 @@ button{
     margin-top: 3rem;
     background: #121212;
     user-select: none;
+    transition: transform .2s;
 }
