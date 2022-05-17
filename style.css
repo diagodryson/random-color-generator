@@ -4,3 +4,15 @@
     box-sizing: border-box;
     border: none;
 }
+html{
+  --current-value: rgb(38,142, 222)
+}
+body{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--current-value);
+    height: 100vh;
+    font-family: sans-serif;
+}
