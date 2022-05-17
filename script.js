@@ -12,3 +12,11 @@ const randomRGB = () => [
 ];
 
 const currentValueSpan = document.getElementById("value");
+
+document.getElementById("generate").addEventListener("click", function(e) {
+    const rgb = randomRGB();
+    const content = `rgb(${rgb[0]}, ${rgb[1]}, ${rgb[2]})`
+
+    document.documentElement.style.setProperty('--current-value', content);
+    currentValueSpan.textContent = content
+})
